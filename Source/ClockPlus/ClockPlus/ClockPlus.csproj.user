@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AAPageDefault.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AAPageSpecificDate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AAPageSpecificDates.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddEditAlarm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddEditTimer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AlarmItemControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClockCmdDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CmdFrameDefault.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TagControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TimerItemControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AAPageDefault.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AAPageSpecificDate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AAPageSpecificDates.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddEditAlarm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddEditTimer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AlarmItemControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClockCmdDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CmdFrameDefault.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TagControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TimerItemControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

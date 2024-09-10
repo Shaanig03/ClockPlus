@@ -1,0 +1,15 @@
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\bin\Release\net6.0-windows10.0.17763.0\ClockLib.deps.json
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\bin\Release\net6.0-windows10.0.17763.0\ClockLib.dll
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\bin\Release\net6.0-windows10.0.17763.0\ClockLib.pdb
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\bin\Release\net6.0-windows10.0.17763.0\BirdNest.dll
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\bin\Release\net6.0-windows10.0.17763.0\BirdNest.pdb
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.csproj.AssemblyReference.cache
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.AssemblyInfoInputs.cache
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.AssemblyInfo.cs
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.csproj.CoreCompileInputs.cache
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.csproj.CopyComplete
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.dll
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\refint\ClockLib.dll
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ClockLib.pdb
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Release\net6.0-windows10.0.17763.0\ref\ClockLib.dll

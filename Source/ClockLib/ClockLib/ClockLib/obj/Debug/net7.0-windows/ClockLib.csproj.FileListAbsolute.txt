@@ -1,0 +1,5 @@
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Debug\net7.0-windows\ClockLib.csproj.AssemblyReference.cache
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Debug\net7.0-windows\ClockLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Debug\net7.0-windows\ClockLib.AssemblyInfoInputs.cache
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Debug\net7.0-windows\ClockLib.AssemblyInfo.cs
+E:\Documents\Visual Studio\Projects\ClockLib\ClockLib\ClockLib\obj\Debug\net7.0-windows\ClockLib.csproj.CoreCompileInputs.cache

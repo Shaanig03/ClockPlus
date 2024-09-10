@@ -1,0 +1,75 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClockPlus"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="ClockPlus.TimerItemControl"
+             mc:Ignorable="d" Height="330" Width="354"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+    >
+    <Grid RenderOptions.EdgeMode="Unspecified" RenderOptions.BitmapScalingMode="NearestNeighbor" UseLayoutRounding="True">
+
+        <Border x:Name="border1" CornerRadius="6" BorderThickness="0.8                 " HorizontalAlignment="Center" Height="324" VerticalAlignment="Center" Width="342" BorderBrush="#FFADADAD" Background="White">
+            <Border.Effect>
+                <DropShadowEffect Opacity="0.08"/>
+            </Border.Effect>
+            <Grid>
+                <ProgressBar x:Name="circularProgressBar" Style="{StaticResource MaterialDesignCircularProgressBar}" Width="80" Height="80" SmallChange="1" RenderTransformOrigin="0,0" Value="100">
+                    <ProgressBar.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-1"/>
+                        </TransformGroup>
+                    </ProgressBar.RenderTransform>
+                    <ProgressBar.LayoutTransform>
+                        <ScaleTransform ScaleX="2.7" ScaleY="2.7" />
+                    </ProgressBar.LayoutTransform>
+                </ProgressBar>
+                <Label x:Name="l_time" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center"  Content="00:00:00" Width="340" FontSize="35" FontFamily="Verdana" Margin="0,85,0,85" Foreground="#FF424242" BorderBrush="#FF08A753"/>
+                <Label  Focusable="False" x:Name="l_cmdCount" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="0 cmd" HorizontalAlignment="Center" Height="26" Margin="0,196,0,0" VerticalAlignment="Top" Width="44" FontFamily="Segoe UI" FontWeight="Normal" Foreground="#FF868686" FontSize="11"/>
+                <Label x:Name="l_title" Content="Timer Item Name" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="328" Background="{x:Null}"/>
+                <Border BorderThickness="1" HorizontalAlignment="Center" Height="322" VerticalAlignment="Center" Width="340" Background="#02FFFFFF">
+                    <materialDesign:Ripple x:Name="ripple" IsEnabled="True" Padding="8"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Focusable="False"
+                        SnapsToDevicePixels="True" Margin="0,0,-2,-2" MouseLeftButtonDown="ripple_MouseLeftButtonDown"/>
+                </Border>
+                <Border BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="122,273,0,0" VerticalAlignment="Top" Width="105" Background="#02FFFFFF">
+                    <Grid>
+                        <Button x:Name="btn_play" HorizontalAlignment="Left" Height="37" Margin="2,0,0,0" VerticalAlignment="Center" Width="44">
+                            <materialDesign:PackIcon x:Name="icon_btnPlay"
+                                Width="25"
+                                Height="24"
+                                Kind="Play" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Button>
+                        <Button x:Name="btn_reset" HorizontalAlignment="Left" Height="37" Margin="52,0,0,0" VerticalAlignment="Center" Width="50">
+                            <materialDesign:PackIcon x:Name="sdf1"
+                                Width="26"
+                                Height="26"
+                                Kind="Autorenew" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Button>
+                    </Grid>
+                </Border>
+                <Border BorderThickness="1" HorizontalAlignment="Left" Height="44" Margin="283,10,0,0" VerticalAlignment="Top" Width="43" Background="#02FFFFFF">
+                    <ToggleButton x:Name="delete_btn" Visibility="Hidden"
+                        Style="{StaticResource MaterialDesignFlatToggleButton}"
+                        ToolTip="Deletes Alarm" Background="#FFD04300" Foreground="#FFD04300" BorderBrush="#FFD04300" Margin="0,-6,-4,-6" HorizontalAlignment="Right" Width="40">
+                        <materialDesign:PackIcon x:Name="___No_Name_"
+                            Width="24"
+                            Height="25"
+                            Kind="DeleteForever" Foreground="#FFD04300" VerticalAlignment="Center" />
+                    </ToggleButton>
+                </Border>
+            </Grid>
+
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,174 @@
+﻿<Window x:Class="ClockPlus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClockPlus"
+        mc:Ignorable="d"
+        Title="Clock Plus" Height="676" Width="1234"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}" Closing="Window_Closing" Icon="/icon2.png" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+
+        <materialDesign:Card>
+            <TabControl x:Name="tabControl"
+    materialDesign:NavigationRailAssist.ShowSelectionBackground="True"
+    SnapsToDevicePixels="True"
+    Style="{StaticResource MaterialDesignNavigationRailTabControl}"
+    TabStripPlacement="Left">
+                <TabItem x:Name="TabAlarm">
+                    <TabItem.Header>
+                        <StackPanel
+          Width="auto"
+          Height="auto">
+                            <materialDesign:PackIcon
+            Width="24"
+            Height="24"
+            HorizontalAlignment="Center"
+            Kind="ProgressClock" />
+                            <TextBlock
+            HorizontalAlignment="Center"
+            Text="Alarm" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="76*"/>
+                            <RowDefinition Height="585*"/>
+                        </Grid.RowDefinitions>
+
+                        <ScrollViewer Margin="10,24,0,74" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Hidden" Grid.RowSpan="2">
+                            <WrapPanel x:Name="alarm_container" HorizontalAlignment="Left" Width="1136"/>
+                        </ScrollViewer>
+                        <Button x:Name="btn_addAlarm" Content="+" Margin="0,0,16,20" Foreground="#FFEAEAEA" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="43" FontSize="20" Grid.Row="1"/>
+                        <Button x:Name="btn_addAlarm_Copy" Margin="0,0,71,20" Foreground="#FFEAEAEA" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="43" FontSize="20" Grid.Row="1" Background="#FF487171" BorderBrush="#FF487171" Click="btn_addAlarm_Copy_Click">
+                            <materialDesign:PackIcon
+                            Width="20"
+                            Height="30"
+                            Kind="TrashCanOutline" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Button>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="TabTimer">
+                    <TabItem.Header>
+                        <StackPanel
+          Width="auto"
+          Height="auto">
+                            <materialDesign:PackIcon
+            Width="24"
+            Height="24"
+            HorizontalAlignment="Center"
+            Kind="TimerOutline" />
+                            <TextBlock
+            HorizontalAlignment="Center"
+            Text="Timer" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="76*"/>
+                            <RowDefinition Height="585*"/>
+                        </Grid.RowDefinitions>
+
+                        <ScrollViewer Margin="10,24,0,74" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Hidden" Grid.RowSpan="2">
+                            <WrapPanel x:Name="timer_container" HorizontalAlignment="Left" Width="1136"/>
+                        </ScrollViewer>
+                        <Button x:Name="btn_addTimer" Content="+" Margin="0,0,16,20" Foreground="#FFEAEAEA" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="43" FontSize="20" Grid.Row="1"/>
+                        <Button x:Name="btn_deleteTimer" Margin="0,0,71,20" Foreground="#FFEAEAEA" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="43" FontSize="20" Grid.Row="1" Background="#FF487171" BorderBrush="#FF487171" Click="btn_deleteTimer_Click">
+                            <materialDesign:PackIcon
+                                Width="20"
+                                Height="30"
+                                Kind="TrashCanOutline" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Button>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="TabStopwatch">
+                    <TabItem.Header>
+                        <StackPanel
+          Width="auto"
+          Height="auto">
+                            <materialDesign:PackIcon
+            Width="24"
+            Height="24"
+            HorizontalAlignment="Center"
+            Kind="TimerPlayOutline" />
+                            <TextBlock
+            HorizontalAlignment="Center"
+            Text="Stopwatch" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid>
+                        <Button x:Name="btn_stopWatch_play" HorizontalAlignment="Left" Height="67" Margin="475,558,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.5,0.5" Click="btn_stopWatch_play_Click">
+                            <Button.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform AngleX="0.154"/>
+                                    <RotateTransform Angle="-1.154"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Button.RenderTransform>
+                            <materialDesign:PackIcon x:Name="icon_btnStopWatch_play"
+                                Width="55"
+                                Height="55"
+                                Kind="Play" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Button>
+                        <Button x:Name="btn_stopWatch_reset" HorizontalAlignment="Left" Height="68" Margin="571,557,0,0" VerticalAlignment="Top" Width="94" Click="btn_stopWatch_reset_Click">
+                            <materialDesign:PackIcon x:Name="sdf1"
+                                Width="55"
+                                Height="55"
+                                Kind="Autorenew" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Button>
+                        <Label HorizontalContentAlignment="Center" IsEnabled="False" VerticalContentAlignment="Center" x:Name="label_stopWatchTime" Content="00:00:00" HorizontalAlignment="Left" Height="162" Margin="124,204,0,0" VerticalAlignment="Top" Width="880" FontFamily="Verdana" FontSize="120"/>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="TabSettings">
+                    <TabItem.Header>
+                        <StackPanel
+          Width="auto"
+          Height="auto">
+                            <materialDesign:PackIcon
+            Width="24"
+            Height="24"
+            HorizontalAlignment="Center"
+            Kind="CogOutline" />
+                            <TextBlock
+            HorizontalAlignment="Center"
+            Text="Settings" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="8*"/>
+                            <RowDefinition Height="157*"/>
+                        </Grid.RowDefinitions>
+                        <ToggleButton x:Name="tb_startOnWinStart"
+  Style="{StaticResource MaterialDesignSwitchToggleButton}"
+  ToolTip="Default ToggleButton Style" Margin="48,44,0,0" Checked="tb_startOnWinStart_Checked" Unchecked="tb_startOnWinStart_Unchecked" HorizontalAlignment="Left" Width="34" Height="28" VerticalAlignment="Top" Grid.Row="1" />
+                        <Label Content="run application on windows start?" HorizontalAlignment="Left" Margin="42,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.186,0.158" Grid.Row="1" FontSize="18" Foreground="#DD6B6B6B"/>
+                        <materialDesign:TimePicker
+                            x:Name="tp_toastNtf_expireTime"
+                            materialDesign:HintAssist.Hint="Time"
+                            Is24Hours="True"
+                            WithSeconds="True" Margin="48,122,0,0" VerticalAlignment="Top" Height="34" SelectedTime="03/04/2024 00:05:00" HorizontalAlignment="Left" Width="210" Grid.Row="1" />
+                        <Slider x:Name="settings_slider_alarmVolume" HorizontalAlignment="Left" Height="27" Margin="48,251,0,0" VerticalAlignment="Top" Width="464" Maximum="1" Grid.Row="1"/>
+                        <Label Content="alarm notification (expire time):" HorizontalAlignment="Left" Margin="42,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.186,0.158" Grid.Row="1" FontSize="18" Foreground="#DD6B6B6B"/>
+                        <Label Content="alarm/timer sound volume:" HorizontalAlignment="Left" Margin="42,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.186,0.158" Grid.Row="1" FontSize="18" Foreground="#DD6B6B6B"/>
+                        <Label Content="Notes:" HorizontalAlignment="Left" Margin="48,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.186,0.158" Grid.Row="1" FontSize="18" Foreground="#DD6B6B6B"/>
+                        <Label Content="Notification not popping up?" HorizontalAlignment="Left" Margin="78,317,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.186,0.158" Grid.Row="1" FontSize="16" Foreground="#DD6B6B6B"/>
+                        <TextBlock HorizontalAlignment="Left" Height="39" Margin="108,357,0,0" Grid.Row="1" TextWrapping="Wrap" Text="- if so notifcations for this application is disabled, search &quot;notification&quot; in the windows search bar and click &quot;Notifications &amp; actions settings&quot;, find &quot;ClockPlus&quot; and switch/enable notification for the application, then try playing a timer to see if it works" VerticalAlignment="Top" Width="813" FontSize="14" Foreground="#DD8C8C8C"/>
+                        <Label Content="Facing any bugs/issues?" HorizontalAlignment="Left" Margin="78,415,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.186,0.158" Grid.Row="1" FontSize="16" Foreground="#DD6B6B6B"/>
+                        <TextBlock HorizontalAlignment="Left" Height="39" Margin="108,455,0,0" Grid.Row="1" TextWrapping="Wrap" Text="- I really tested this application alot in various ways before, but if you encounter any, try commenting on the video and I will look into it" VerticalAlignment="Top" Width="813" FontSize="14" Foreground="#DD8C8C8C"/>
+                        <Label Content="Why I made this software?" HorizontalAlignment="Left" Margin="78,498,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.186,0.158" Grid.Row="1" FontSize="16" Foreground="#DD6B6B6B"/>
+                        <TextBlock HorizontalAlignment="Left" Height="55" Margin="108,538,0,0" Grid.Row="1" TextWrapping="Wrap" Text="- I'm a guy who spended most of his life heating up the chair, coding, playing games, trying to make games, modding them, and I have other many tasks to do besides my time on the chair, so I made this software so I can alarm and remind myself of various tasks " VerticalAlignment="Top" Width="813" FontSize="14" Foreground="#DD8C8C8C"/>
+                        <MediaElement x:Name="settings_mediaElement" Source="Images/giphy1-ezgif.com-webp-to-gif-converter.gif" LoadedBehavior="Play" Visibility="Visible" Margin="773,31,49,297" Grid.RowSpan="2" UnloadedBehavior="Manual" MediaEnded="MediaElement_MediaEnded" />
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </materialDesign:Card>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="ClockPlus.TagControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClockPlus"
+             mc:Ignorable="d" Height="21.2" Width="25">
+    <Grid>
+        <Border  CornerRadius="5" BorderThickness="0.6" Background="#FFF1F1F1">
+            <Label x:Name="l_tagName" Content="Su" FontSize="12" VerticalAlignment="Center" Height="21" Foreground="#DD848484" FontFamily="Bahnschrift Light"/>
+        </Border>
+    </Grid>
+</UserControl>

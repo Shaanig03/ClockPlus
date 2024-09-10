@@ -1,0 +1,20 @@
+﻿ClockPlus
+
+
+winexe
+C#
+.cs
+D:\Projects\Visual Studio\Projects\ClockPlus\ClockPlus\obj\Debug\net6.0-windows10.0.17763.0\
+ClockPlus
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+D:\Projects\Visual Studio\Projects\ClockPlus\ClockPlus\App.xaml
+111931449940
+21974704296
+13-326074803
+235-1596104084
+AAPageDefault.xaml;AAPageSpecificDate.xaml;AAPageSpecificDates.xaml;AddEditAlarm.xaml;AddEditTimer.xaml;AlarmItemControl.xaml;ClockCmdDialog.xaml;CmdFrameDefault.xaml;MainWindow.xaml;TagControl.xaml;TimerItemControl.xaml;
+
+False
+

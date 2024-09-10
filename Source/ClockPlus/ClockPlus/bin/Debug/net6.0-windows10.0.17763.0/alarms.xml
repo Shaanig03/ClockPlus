@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<storage>
+  <alarms>
+  </alarms>
+  <timers />
+  <stopWatch time="00:00:00.000" />
+  <selectedAlarmSound>default</selectedAlarmSound>
+  <toastNotification_expireTimeInSeconds Seconds="300">
+  </toastNotification_expireTimeInSeconds>
+  <alarmVolume>0.5</alarmVolume>
+</storage>
