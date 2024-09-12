@@ -1,8 +1,8 @@
 Clock Plus is an open source software made for Windows
 
 Notes:
-  - (important) for some reason if your notifications aren't popping up then you have to enable notifications for this software,
-  this can be done by searching "notification" in windows search bar and clicking "Notifications & Actions Settings" and enabling notifications for this software, to test out if it's working, check out with a timer
+  - its important you check if notifications are enabled for this software,  this can be done by searching "notification" in windows search bar and clicking "Notifications & Actions Settings" and enabling notifications for this software, to test out if it's working, check out by playing a timer
+ 
 
 It has the features:
 
