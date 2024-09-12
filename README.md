@@ -1,10 +1,10 @@
 Clock Plus is an open source software made for Windows
 
 Notes:
-  - for some reason if your notifications aren't popping up then you have to enable notifications for this software,
+  - (important) for some reason if your notifications aren't popping up then you have to enable notifications for this software,
   this can be done by searching "notification" in windows search bar and clicking "Notifications & Actions Settings" and enabling notifications for this software, to test out if it's working, check out with a timer
 
-it has the features:
+It has the features:
 
   - modern user interface
   - alarms, can set to trigger on specific date/s, or every month or year, repeating on specific days
@@ -22,7 +22,7 @@ it has the features:
   - a cat in the settings for some ambient warmthness
 
 
-software settings (include):
+Software settings (include):
 
   - alarm notification expire time
   - alarm sound volume
