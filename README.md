@@ -19,7 +19,7 @@ It has the features:
        - Shutdown Computer
        - Restart Computer
   - custom alarm sounds by adding .wav files to your "Data\Sounds" folder, two sounds are included by default
-  - a cat in the settings for some ambient warmthness
+  - a cat in the settings for some ambient warmthness ^_^
 
 
 Software settings (include):
@@ -32,4 +32,4 @@ Software settings (include):
 
 Known Issues:
 
-  - None at,m since I have been using this software for a long while now
+  - None atm, since I have been using this software for a long while now
