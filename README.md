@@ -1,4 +1,4 @@
-Clock Plus is an open source software made for Windows
+Clock Plus is an open source alarm software made for Windows
 
 Notes:
   - its important you check if notifications are enabled for this software,  this can be done by searching "notification" in windows search bar and clicking "Notifications & Actions Settings" and enabling notifications for this software, to test out if it's working, check out by playing a timer
