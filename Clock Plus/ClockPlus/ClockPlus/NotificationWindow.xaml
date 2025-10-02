@@ -1,0 +1,28 @@
+﻿<Window x:Class="ClockPlus.NotificationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClockPlus"
+        mc:Ignorable="d"
+        Title="Clock Plus" Height="120" Width="325" Topmost="True" WindowStyle="ToolWindow" ResizeMode="NoResize" Closed="Window_Closed" ShowInTaskbar="False" Loaded="Window_Loaded">
+    <Grid Background="White" Margin="0,-15,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="24*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="title" Content="Alarm (Test)" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#DD000000"/>
+        <Label x:Name="desc" Content="12:00 PM" HorizontalAlignment="Left" Margin="15,34,0,0" VerticalAlignment="Top" Foreground="#FF717171"/>
+        <Label x:Name="label_snooze" Content="Snooze For:" Margin="15,0,0,10" Foreground="#FF717171" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="70"/>
+        <ComboBox x:Name="cb_snoozeTime" Margin="90,0,10,7" VerticalAlignment="Bottom" IsSynchronizedWithCurrentItem="False" Height="25" Grid.ColumnSpan="2" SelectedIndex="0">
+            <ComboBoxItem Content="None"/>
+            <ComboBoxItem Content="5 Minutes"/>
+            <ComboBoxItem Content="10 Minutes"/>
+            <ComboBoxItem Content="20 Minutes"/>
+            <ComboBoxItem Content="30 Minutes"/>
+            <ComboBoxItem Content="1 Hour"/>
+            <ComboBoxItem Content="1 Hour 30 Minutes"/>
+            <ComboBoxItem Content="2 Hours"/>
+        </ComboBox>
+    </Grid>
+</Window>

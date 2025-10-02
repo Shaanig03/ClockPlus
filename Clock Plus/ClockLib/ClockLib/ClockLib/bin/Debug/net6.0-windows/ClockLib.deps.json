@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ClockLib/1.0.0": {
+        "dependencies": {
+          "BirdNest": "1.0.0"
+        },
+        "runtime": {
+          "ClockLib.dll": {}
+        }
+      },
+      "BirdNest/1.0.0": {
+        "runtime": {
+          "BirdNest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClockLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BirdNest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

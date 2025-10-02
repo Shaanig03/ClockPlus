@@ -1,0 +1,27 @@
+﻿<Page x:Class="ClockPlus.CmdFrameDefault"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ClockPlus"
+      mc:Ignorable="d"
+      Title="CmdFrameDefault" Height="116" Width="473"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+      >
+
+    <Grid>
+        <Button x:Name="btn_openDialog" Content="folder browser" HorizontalAlignment="Left" Height="29" Margin="19,65,0,0" VerticalAlignment="Top" Width="120" BorderBrush="DarkCyan" Foreground="#FFEAEAEA" FontFamily="Segoe UI" FontSize="12" Click="btn_openDialog_Click"/>
+        <TextBox
+            x:Name="cmd_input"
+            materialDesign:HintAssist.HelperText=""
+            materialDesign:HintAssist.HelperTextFontSize="16"
+            materialDesign:HintAssist.Hint="command input" Margin="19,21,20,0" Height="26" VerticalAlignment="Top"/>
+        <Button x:Name="btn_openDialogFile" Content="file browser" HorizontalAlignment="Left" Height="29" Margin="144,65,0,0" VerticalAlignment="Top" Width="120" BorderBrush="DarkCyan" Foreground="#FFEAEAEA" FontFamily="Segoe UI" FontSize="12" Click="btn_openDialogFile_Click"/>
+
+    </Grid>
+</Page>
