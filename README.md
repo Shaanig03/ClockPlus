@@ -22,7 +22,7 @@ Features:
 		- can snooze an alarm (similar to windows default one)
 		
 		- (User Interface) you should see the exact remaining time for the alarm time 
-		
+	
 	- timer:
 	
 		- set a time
