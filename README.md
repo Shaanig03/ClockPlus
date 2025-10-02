@@ -23,7 +23,7 @@ Features:
 		
 		- (User Interface) you should see the exact remaining time for the alarm time 
 	
-	- timer:
+	-  timer:
 	
 		- set a time
 		
