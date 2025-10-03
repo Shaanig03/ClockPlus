@@ -55,7 +55,7 @@ Features:
 		
 	- for alarms you can snooze 
 		
-	- settings:
+  - settings:
 	
 	- you can auto-run the application on windows start
 		
