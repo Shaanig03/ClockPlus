@@ -67,7 +67,7 @@ Features:
 		
 	- includes some notes
 	
-	- when you press the close button in the application it minimizes the app to the system tray(similar to Steam), to completely terminate the application you right click the application from the system tray and hit 'Close Application'
+ - Note: when you press the close button in the application it minimizes the app to the system tray(similar to Steam), to completely terminate the application you right click the application from the system tray and hit 'Close Application'
 		
 		
 	
