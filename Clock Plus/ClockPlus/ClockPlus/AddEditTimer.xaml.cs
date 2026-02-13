@@ -13,7 +13,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Windows.ApplicationModel.Search;
-
 namespace ClockPlus
 {
     /// <summary>

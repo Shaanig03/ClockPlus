@@ -2675,11 +2675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Visual Studio\\Projects\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
+      "projectUniqueName": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
       "projectName": "ClockLib",
-      "projectPath": "D:\\Projects\\Visual Studio\\Projects\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
+      "projectPath": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
       "packagesPath": "C:\\Users\\Shaanig\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Visual Studio\\Projects\\ClockLib\\ClockLib\\ClockLib\\obj\\",
+      "outputPath": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockLib\\ClockLib\\ClockLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\Visual Studio\\SharedComponentsToolsSDKs\\NuGetPackages"
@@ -2775,7 +2775,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

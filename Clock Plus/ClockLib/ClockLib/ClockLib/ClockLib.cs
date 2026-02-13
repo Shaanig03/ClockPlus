@@ -5,6 +5,7 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CSharp;
 using Microsoft.Toolkit.Uwp.Notifications;
 using Microsoft.VisualBasic;
+using Microsoft.Win32;
 using NAudio.Wave;
 using System;
 using System.CodeDom.Compiler;
@@ -26,9 +27,9 @@ using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows.Threading;
 using System.Xml;
-using System.Xml;
 using Windows.Devices.Display.Core;
 using Windows.UI.Notifications;
+
 namespace ClockLib
 {
 
@@ -350,7 +351,7 @@ namespace ClockLib
             AlarmItemDef result;
             if (flag)
             {
-                Debug.WriteLine("Max timer items: " + ClockLib.max_timerDefs.ToString() + ", has been reached");
+                //Debug.WriteLine("Max timer items: " + ClockLib.max_timerDefs.ToString() + ", has been reached");
                 result = null;
             }
             else
@@ -914,7 +915,6 @@ namespace ClockLib
                                     itemType = ClockItemType.Alarm
                                 };
                                 ClockLib.clockItems.Add(clockItem10);
-                                Debug.WriteLine("New Clock Item Added");
                             }
                         }
                     }
@@ -1051,7 +1051,7 @@ namespace ClockLib
             int result;
             if (flag)
             {
-                Debug.WriteLine("Max alarm items: " + ClockLib.max_alarmDefs.ToString() + ", has been reached");
+                //Debug.WriteLine("Max alarm items: " + ClockLib.max_alarmDefs.ToString() + ", has been reached");
                 result = -1;
             }
             else
@@ -1331,8 +1331,10 @@ namespace ClockLib
                         }
                     case ClockCommandType.Open_URL:
                         {
+                           
                             string url = _command.args[0];
-                            Process.Start(url);
+                            Process.Start(new ProcessStartInfo { FileName = url, UseShellExecute = true });
+
                             break;
                         }
                     case ClockCommandType.Turn_On_ComputerSleepMode:

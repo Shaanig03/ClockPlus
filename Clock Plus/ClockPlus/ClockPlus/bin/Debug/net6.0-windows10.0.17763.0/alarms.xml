@@ -1,48 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <storage>
-  <alarms>
-    <alarm alarmTitle="Test" alarmTime="07:00 PM" dateType="default" dateValue="0123456" enabled="True" current_alarmPeriod="9/25/2030 7:00:00 PM" alarmSound="default">
-      <cmds>
-      </cmds>
-    </alarm>
-    <alarm alarmTitle="sdf" alarmTime="09:09 PM" dateType="default" dateValue="" enabled="False" current_alarmPeriod="" alarmSound="default">
-      <cmds>
-      </cmds>
-    </alarm>
-    <alarm alarmTitle="Every Month" alarmTime="10:30 PM" dateType="everyMonth" dateValue="" enabled="True" current_alarmPeriod="2026/10/1 10:30 PM" alarmSound="default">
-      <cmds>
-      </cmds>
-    </alarm>
-    <alarm alarmTitle="its a new year yahy" alarmTime="12:00 PM" dateType="everyYear" dateValue="" enabled="True" current_alarmPeriod="2027/1/1 12:00 PM" alarmSound="default">
-      <cmds>
-      </cmds>
-    </alarm>
-    <alarm alarmTitle="Test" alarmTime="01:10 PM" dateType="default" dateValue="" enabled="False" current_alarmPeriod="" alarmSound="default">
-      <cmds>
-      </cmds>
-    </alarm>
-  </alarms>
-  <timers>
-    <timer title="test" time="00:00:59" current_alarmPeriod="9/25/2025 1:38:41 PM" alarmSound="default" remainingTime="0:0:53.688">
-      <cmds>
-      </cmds>
-    </timer>
-    <timer title="sdf" time="00:05:00" current_alarmPeriod="9/25/2025 1:40:19 PM" alarmSound="default" remainingTime="0:5:0.0">
-      <cmds>
-      </cmds>
-    </timer>
-    <timer title="gg" time="00:05:00" current_alarmPeriod="9/24/2025 7:17:32 PM" alarmSound="default" remainingTime="0:4:59.940">
-      <cmds>
-      </cmds>
-    </timer>
-    <timer title="Test" time="00:01:00" current_alarmPeriod="9/25/2025 1:37:23 PM" alarmSound="default" remainingTime="0:1:0.0">
-      <cmds>
-      </cmds>
-    </timer>
-  </timers>
+  <alarms />
+  <timers />
   <stopWatch time="00:00:00.000" />
   <selectedAlarmSound>default</selectedAlarmSound>
   <toastNotification_expireTimeInSeconds Seconds="300">
   </toastNotification_expireTimeInSeconds>
-  <alarmVolume>1</alarmVolume>
+  <alarmVolume>0.5</alarmVolume>
 </storage>

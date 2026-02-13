@@ -40,6 +40,7 @@ namespace ClockPlus
         {
             NotificationSystem.CreateNotification(alarmItem, ntfType);
         }
+
         // updates display
         public override void UpdateDisplay()
         {
@@ -338,11 +339,13 @@ namespace ClockPlus
             addEditTimerDialog.ShowDialog();
         }
     }
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public DispatcherTimer remainingTimeUpdater = new DispatcherTimer { Interval = new TimeSpan(0, 0, 1) };
         public NotifyIcon notifyIcon;
 
@@ -385,7 +388,6 @@ namespace ClockPlus
             
 
             Loaded += MainWindow_Loaded;
-          
         }
 
         private void NotifyIcon_MouseDoubleClick1(object? sender, System.Windows.Forms.MouseEventArgs e)

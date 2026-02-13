@@ -1,10 +1,16 @@
-﻿using System;
+﻿using ClockLib;
+using MaterialDesignColors;
+using MaterialDesignThemes;
+using Microsoft.Win32;
+using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Drawing.Imaging;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -19,11 +25,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-using ClockLib;
-using MaterialDesignColors;
-using MaterialDesignThemes;
-using Microsoft.Win32;
-using System.CodeDom.Compiler;
 
 
 namespace ClockPlus
@@ -126,10 +127,7 @@ namespace ClockPlus
         }
         public static void Initialize()
         {
-            for(int i=2; i<=10; i += 3)
-            {
-                Debug.WriteLine(i.ToString());
-            }
+
 
             // get screen bounds
             var bounds = Screen.PrimaryScreen.Bounds;
@@ -141,8 +139,6 @@ namespace ClockPlus
             // setup display timer to update notification visual
             displayTimer = new DispatcherTimer() { Interval = new TimeSpan(0,0,0,0,10)};
             displayTimer.Tick += DisplayTimer_Tick;
-     
-
         }
 
 
@@ -170,9 +166,11 @@ namespace ClockPlus
 
                     double leftLerp = Lerp(window.Left, leftValue, 0.05);
                     double topLerp = Lerp(window.Top, topValue, 0.05);
+
                     window.Left = leftLerp;
                     window.Top = topLerp;
-                   // window.Left = leftValue;
+
+                    //window.Left = leftValue;
                     //window.Top = topValue;
                 }
             }

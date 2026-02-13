@@ -3040,11 +3040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Visual Studio\\Projects\\ClockPlus\\ClockPlus\\ClockPlus.csproj",
+      "projectUniqueName": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\ClockPlus\\ClockPlus.csproj",
       "projectName": "ClockPlus",
-      "projectPath": "D:\\Projects\\Visual Studio\\Projects\\ClockPlus\\ClockPlus\\ClockPlus.csproj",
+      "projectPath": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\ClockPlus\\ClockPlus.csproj",
       "packagesPath": "C:\\Users\\Shaanig\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Visual Studio\\Projects\\ClockPlus\\ClockPlus\\obj\\",
+      "outputPath": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\ClockPlus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\Visual Studio\\SharedComponentsToolsSDKs\\NuGetPackages"
@@ -3065,8 +3065,8 @@
         "net6.0-windows10.0.17763": {
           "targetAlias": "net6.0-windows10.0.17763.0",
           "projectReferences": {
-            "D:\\Projects\\Visual Studio\\Projects\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj": {
-              "projectPath": "D:\\Projects\\Visual Studio\\Projects\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj"
+            "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj": {
+              "projectPath": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj"
             }
           }
         }
@@ -3152,7 +3152,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   },

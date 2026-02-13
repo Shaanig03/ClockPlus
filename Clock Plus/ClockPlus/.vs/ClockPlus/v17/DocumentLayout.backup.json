@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C47115CD-AE31-4F4D-82B0-14E27B105E9F}|ClockPlus\\ClockPlus.csproj|d:\\projects\\visual studio\\projects\\clock plus\\clockplus\\clockplus\\notificationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C47115CD-AE31-4F4D-82B0-14E27B105E9F}|ClockPlus\\ClockPlus.csproj|solutionrelative:clockplus\\notificationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C47115CD-AE31-4F4D-82B0-14E27B105E9F}|ClockPlus\\ClockPlus.csproj|d:\\projects\\visual studio\\projects\\clock plus\\clockplus\\clockplus\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C47115CD-AE31-4F4D-82B0-14E27B105E9F}|ClockPlus\\ClockPlus.csproj|solutionrelative:clockplus\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AA2764-43EB-4256-957A-830A975B52CF}|..\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj|d:\\projects\\visual studio\\projects\\clock plus\\clocklib\\clocklib\\clocklib\\clocklib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 302,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\ClockPlus\\NotificationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClockPlus\\NotificationWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\ClockPlus\\NotificationWindow.xaml.cs",
+              "RelativeToolTip": "ClockPlus\\NotificationWindow.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:01:14.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationSystem.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\ClockPlus\\NotificationSystem.cs",
+              "RelativeDocumentMoniker": "ClockPlus\\NotificationSystem.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockPlus\\ClockPlus\\NotificationSystem.cs",
+              "RelativeToolTip": "ClockPlus\\NotificationSystem.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAqwG4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:00:40.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClockLib",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
+              "RelativeDocumentMoniker": "..\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
+              "ToolTip": "D:\\Projects\\Visual Studio\\Projects\\Clock Plus\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
+              "RelativeToolTip": "..\\ClockLib\\ClockLib\\ClockLib\\ClockLib.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-13T06:18:11.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

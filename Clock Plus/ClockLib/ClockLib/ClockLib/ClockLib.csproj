@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <Reference Include="BirdNest">
-      <HintPath>..\..\..\..\..\..\Programs\ClockPlus\BirdNest.dll</HintPath>
+      <HintPath>..\..\BirdNest.dll</HintPath>
     </Reference>
   </ItemGroup>
 
