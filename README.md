@@ -3,6 +3,10 @@
 
 - ⏰ Clock Plus is an alarm software made for Windows, it has some more features than the default windows Clock alarm application
 
+Known Issues:
+
+	- the open URL feature doesn't work, will try to fix that
+
 Features:
 
    - it includes alarms(ofc), timers and a stopwatch
