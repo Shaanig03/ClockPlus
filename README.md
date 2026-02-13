@@ -50,8 +50,6 @@ Features:
 	- note: you probably won't be using this >_<
 	
   - notification system
-	
-	- note(known issue): if a alarm notification pops-up while ur monitor is turned off, there is a visual glitch in the notification where the texts aren't visible, but if u click the notification the texts are again visible
 		
 	- for alarms you can snooze 
 		
