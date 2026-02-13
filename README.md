@@ -1,11 +1,7 @@
-⏰ Clock Plus (1.1)
+⏰ Clock Plus (1.2)
 --------------------------------
 
 - ⏰ Clock Plus is an alarm software made for Windows, it has some more features than the default windows Clock alarm application
-
-Known Issues:
-
-	- the open URL feature doesn't work, will try to fix that
 
 Features:
 
